@@ -44,7 +44,7 @@ backend lb-back
 # sudo apt-get install certbot
 # sudo service haproxy stop
 
-# sudo certbot certonly --standalone --preferred-challenges http --http-01-port 80 -d www.example.com
+# sudo certbot certonly --standalone --preferred-challenges http --http-01-port 80 -d www.intare.tech
 # sudo mkdir -p /etc/haproxy/certs
 
 # DOMAIN='example.com' sudo -E bash -c 'cat /etc/letsencrypt/live/$DOMAIN/fullchain.pem /etc/letsencrypt/live/$DOMAIN/privkey.pem > /etc/haproxy/certs/$DOMAIN.pem'
